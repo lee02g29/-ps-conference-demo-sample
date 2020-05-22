@@ -8,7 +8,8 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class PersistenceConfiguration {
-   /* @Bean
+
+    @Bean
     public DataSource dataSource() {
         DataSourceBuilder builder = DataSourceBuilder.create();
         builder.url("jdbc:postgresql://localhost:5432/postgres");
@@ -16,5 +17,6 @@ public class PersistenceConfiguration {
         builder.password("Welcome");
         System.out.println("My Custom datasource bean has been initialized and set");
         return builder.build();
-    } */
+    }
+
 }
